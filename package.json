@@ -1,0 +1,12 @@
+{
+  "name": "service-refactoring-notes",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write README.md .github/workflows/checks.yml package.json",
+    "format:check": "prettier --check README.md .github/workflows/checks.yml package.json"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}
